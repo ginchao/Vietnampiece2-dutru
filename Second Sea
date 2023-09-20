@@ -195,12 +195,12 @@ if game.PlaceId~=7258239416 then
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack", "Ok")  
   elseif Weapon ~= nil then  
-   getgenv().e = v   
+   getgenv().er = v   
    spawn(function()   
-   while e == true do   
+   while er == true do   
    pcall(function()   
-   while e do wait()  game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
-   wait(0.11)   
+   while er do wait()  game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
+   wait()   
    end   
    end)   
    end   
@@ -218,7 +218,7 @@ if game.PlaceId~=7258239416 then
    pcall(function()   
    while ei do wait()   
    pcall(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
-   wait(0.11)   
+   wait()   
    end)   
    end   
    end)   
@@ -238,7 +238,7 @@ if game.PlaceId~=7258239416 then
    pcall(function()   
    while ue do wait()   
    pcall(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
-   wait(0.1)   
+   wait()   
    end)   
    end   
    end)   
@@ -258,7 +258,7 @@ if game.PlaceId~=7258239416 then
    pcall(function()   
    while eo do wait()   
    spawn(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
-   wait(0.1)   
+   wait()   
    end)   
    end   
    end)   
