@@ -832,7 +832,7 @@ if game.PlaceId~=7258239416 then
   
  btns:Label("Cre Hub:Grabiel Ynu") 
 btns:Button("Universal, Test Hub", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Palosui/TestHub/main/Gui"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/TestHub/main/Universal"))()
 end)
  btns:Button("Lucky Block Battleground", function()  
   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/LuckyBlockBattleground/main/HttVeg'))()  
