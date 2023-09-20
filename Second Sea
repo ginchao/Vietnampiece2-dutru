@@ -212,11 +212,11 @@ if game.PlaceId~=7258239416 then
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Atack x5", "Ok")  
   elseif Weapon ~= nil then  
    for _ = 1,5 do   
-   getgenv().e = v   
+   getgenv().ei = v   
    spawn(function()   
-   while e == true do   
+   while ei == true do   
    pcall(function()   
-   while e do wait()   
+   while ei do wait()   
    pcall(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
    wait(0.11)   
    end)   
@@ -232,11 +232,11 @@ if game.PlaceId~=7258239416 then
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x10", "Ok")  
   elseif Weapon ~= nil then  
    for _ = 1,10 do   
-   getgenv().e = v   
+   getgenv().ue = v   
    spawn(function()   
-   while e == true do   
+   while ue == true do   
    pcall(function()   
-   while e do wait()   
+   while ue do wait()   
    pcall(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
    wait(0.1)   
    end)   
@@ -252,11 +252,11 @@ if game.PlaceId~=7258239416 then
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x20", "Ok")  
   elseif Weapon ~= nil then  
    for _ = 1,20 do   
-   getgenv().e = v   
+   getgenv().eo = v   
    spawn(function()   
-   while e == true do   
+   while eo == true do   
    pcall(function()   
-   while e do wait()   
+   while eo do wait()   
    spawn(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
    wait(0.1)   
    end)   
@@ -272,11 +272,11 @@ if game.PlaceId~=7258239416 then
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x50", "Ok")  
   elseif Weapon ~= nil then  
    for _ = 1,50 do   
-   getgenv().e = v   
+   getgenv().ep = v   
    spawn(function()   
-   while e == true do   
+   while ep == true do   
    pcall(function()   
-   while e do wait()   
+   while ep do wait()   
    spawn(function()        game:GetService("Players").LocalPlayer.Character[Weapon].Hitbox:FireServer(1, 1)   
    wait()   
    end)   
