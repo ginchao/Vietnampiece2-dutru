@@ -991,7 +991,11 @@ end)
                  local plr = game:GetService("Players").LocalPlayer 
                  tps:TeleportToPlaceInstance(game.PlaceId, game.JobId, plr) 
  end) 
-  
+  drops:Button("Teleport To First Sea", function()
+local tps = game:GetService("TeleportService")
+DiscordLib:Notification("Warning","Teleport To Second Sea...","...")
+tps:Teleport("4587545091")
+end)
  btns:Label("Cre Hub:Grabiel Ynu") 
 btns:Button("Universal, Test Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/TestHub/main/Universal"))()
