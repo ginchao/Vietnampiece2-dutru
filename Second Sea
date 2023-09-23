@@ -1024,4 +1024,161 @@ end)
  end)  
   btns:Button("Shift Lock", function()         loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/ShiftLockx/main/Shiftlock-MiniNoobie",true))()  
   end) 
- end
+local serv = win:Server("Private Test Script", "")
+local drops = serv:Channel("Fast Attack Test")
+drops:Toggle("Fast Acttack ",false, function(e)
+getgenv().auto = e
+if not getgenv().auto then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
+while auto do wait()
+for i, c in pairs(game.Players.LocalPlayer:FindFirstChild("Backpack"):GetChildren()) do
+if c:IsA("Tool") and c:FindFirstChild("Hitbox") then
+c.Parent = game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+spawn(function()
+while auto do wait()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") and v:FindFirstChild("Hitbox") then
+v.Hitbox:FireServer(90,90,90)
+if auto == false then game.Players.LocalPlayer.Character.Humanoid:UnequipTools(v)
+end
+end
+end
+end
+end)
+end
+end
+end
+end
+end)
+drops:Toggle("Fast Acttack x5",false, function(e)
+getgenv().auto1 = e
+for _ = 1,5 do
+if not getgenv().auto1 then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
+while auto1 do wait()
+for i, c in pairs(game.Players.LocalPlayer:FindFirstChild("Backpack"):GetChildren()) do
+if c:IsA("Tool") and c:FindFirstChild("Hitbox") then
+c.Parent = game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+spawn(function()
+while auto1 do wait()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") and v:FindFirstChild("Hitbox") then
+v.Hitbox:FireServer(90,90,90)
+if auto1 == false then game.Players.LocalPlayer.Character.Humanoid:UnequipTools(v)
+end
+end
+end
+end
+end)
+end
+end
+end
+end
+end
+end)
+drops:Toggle("Fast Acttack x15",false, function(e)
+getgenv().auto2 = e
+for _ = 1,15 do
+if not getgenv().auto then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
+while auto2 do wait()
+for i, c in pairs(game.Players.LocalPlayer:FindFirstChild("Backpack"):GetChildren()) do
+if c:IsA("Tool") and c:FindFirstChild("Hitbox") then
+c.Parent = game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+spawn(function()
+while auto2 do wait()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") and v:FindFirstChild("Hitbox") then
+v.Hitbox:FireServer(90,90,90)
+if auto2 == false then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() else
+game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+end
+end
+end
+end
+end)
+end
+end
+end
+end
+end
+end)
+drops:Toggle("Fast Acttack x30",false, function(e)
+getgenv().auto3 = e
+for _ = 1,30 do
+if not getgenv().auto3 then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
+while auto3 do wait()
+for i, c in pairs(game.Players.LocalPlayer:FindFirstChild("Backpack"):GetChildren()) do
+if c:IsA("Tool") and c:FindFirstChild("Hitbox") then
+c.Parent = game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+spawn(function()
+while auto3 do wait()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") and v:FindFirstChild("Hitbox") then
+v.Hitbox:FireServer(90,90,90)
+if auto3 == false then game.Players.LocalPlayer.Character.Humanoid:UnequipTools(v)
+end
+end
+end
+end
+end)
+end
+end
+end
+end
+end
+end)
+drops:Toggle("Fast Acttack x60",false, function(e)
+getgenv().auto4 = e
+for _ = 1,60 do
+if not getgenv().auto4 then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
+while auto4 do wait()
+for i, c in pairs(game.Players.LocalPlayer:FindFirstChild("Backpack"):GetChildren()) do
+if c:IsA("Tool") and c:FindFirstChild("Hitbox") then
+c.Parent = game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+spawn(function()
+while auto4 do wait()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") and v:FindFirstChild("Hitbox") then
+v.Hitbox:FireServer(90,90,90)
+if auto4 == false then game.Players.LocalPlayer.Character.Humanoid:UnequipTools(v)
+end
+end
+end
+end
+end)
+end
+end
+end
+end
+end
+end)
+drops:Toggle("Fast Acttack x100",false, function(e)
+getgenv().auto5 = e
+for _ = 1,100 do wait()
+if not getgenv().auto5 then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
+while auto5 do wait()
+for i, c in pairs(game.Players.LocalPlayer:FindFirstChild("Backpack"):GetChildren()) do
+if c:IsA("Tool") and c:FindFirstChild("Hitbox") then
+c.Parent = game.Players.LocalPlayer.Character
+if game.Players.LocalPlayer.Character:FindFirstChildWhichIsA("Tool") then
+spawn(function()
+while auto5 do wait()
+for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") and v:FindFirstChild("Hitbox") then
+v.Hitbox:FireServer(90,90,90)
+if auto5 == false then game.Players.LocalPlayer.Character.Humanoid:UnequipTools(v)
+end
+end
+end
+end
+end)
+end
+end
+end
+end
+end
+end)
+end
