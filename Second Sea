@@ -1182,7 +1182,7 @@ drops:Label("Fast Acttack Equiptool Fix New Acc")
  end 
  end 
  end) 
- drop:Label("Fast Acttack No Equip No Choose, _Fastattck") 
+ drops:Label("Fast Acttack No Equip No Choose, _Fastattack") 
  drops:Toggle("Fast Acttack ",false, function(e) 
  getgenv().auto = e 
  spawn(function() 
