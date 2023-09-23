@@ -490,8 +490,7 @@ end
    end   
    end  
    end) 
-local drops = serv:Channel("Player2")  
-drops:Label("Fast Attack V2 Choose")
+local drops = serv:Channel("Player2")
 drops:Label("Fast Acttack No Equip No Choose, _Fastattack") 
  drops:Toggle("Fast Acttack ",false, function(e) 
  getgenv().auto = e 
