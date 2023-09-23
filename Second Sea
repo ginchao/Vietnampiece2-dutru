@@ -405,7 +405,7 @@ if game.PlaceId~=7258239416 then
  if plr == nil then 
  DiscordLib:Notification("Warning", "Choose Player to Bring Player", "Ok") 
  elseif plr ~= nil then 
-for _ = 10 do wait()
+for _ = 1,10 do wait()
   getgenv().AutoBr = a  
   spawn(function()  
   while AutoBr do wait()  
@@ -437,7 +437,7 @@ end
  end 
   end)  
    drops:Toggle("Auto Bring All Player, Need LoadMap",false, function(t)  
-for _ = 10 do wait()
+for _ = 1,10 do wait()
    getgenv().autobring1 = t  
   spawn(function()  
   while getgenv().autobring1 do wait()  
