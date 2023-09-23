@@ -506,6 +506,7 @@ end
    end   
    end  
    end) 
+local drops = serv:Channel("Player2")  
 drops:Toggle("Fast Acttack ",false, function(e)
 getgenv().fasst = e
 if not getgenv().fasst then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
@@ -660,7 +661,7 @@ end
 end)
 end
 end)
-  local drops = serv:Channel("Player2")  
+ 
   local plrlist = {}  
   local plr = nil  
   for i, v in pairs(game:GetService("Players"):GetChildren()) do  
