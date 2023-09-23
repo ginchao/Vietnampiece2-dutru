@@ -651,7 +651,7 @@ end)
   for i, v in pairs(game:GetService("Players"):GetChildren()) do  
   table.insert(plrlist,v.Name)  
   end  
-  local drop = drops:Dropdown("Choose Player", plrlist, function(y)  
+  local drop = drops:Dropdown("Choose Player To Hitbox", plrlist, function(y)  
   for i, v in pairs(game.Players:GetPlayers()) do  
   if v.Name == y then  
   plr = y  
