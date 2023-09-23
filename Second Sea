@@ -73,7 +73,7 @@ end)
 end
  end)
  drops:Label("Auto Quest Đã Được Tối Ưu") 
- local tgls = serv:Channel("Stats and Load Map")  
+ local tgls = serv:Channel("Stats and Buy")  
   tgls:Toggle("Auto Sword",false, function(z)  
   getgenv().autostats = z  
  spawn(function() 
@@ -109,18 +109,7 @@ end
   end 
  end) 
   end)  
-  tgls:Button("LoadMap", function()  
-          local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart  
-          rootPart.CFrame = CFrame.new(-708.903564, 87687.7266, 809.050476, 0.312079072, -9.11389222e-08, 0.950056136, -5.59602764e-09, 1, 9.77682433e-08, -0.950056136, -3.58279628e-08, 0.312079072)*CFrame.new(0, 25, 0)  
-  wait(0.8) 
-          rootPart.CFrame = CFrame.new(-1622.85156, 87698.5469, 622.421936, -0.0521310531, -0, -0.998640239, -0, 1, -0, 0.998640239, 0, -0.0521310531)*CFrame.new(0, 20, 0)  
-  wait(0.8) 
-  
-          rootPart.CFrame = CFrame.new(-152.420593, 87740.3125, -2115.33057, -0.995318413, 0, 0.0966506973, 0, 1, -0, -0.0966507122, 0, -0.995318294)*CFrame.new(0, 25, 0)  
-  wait(0.8)  
-  
-          rootPart.CFrame = CFrame.new(-1280.56299, 87693.3281, 3242.69702, -0.0239899773, -0, -0.999712229, -0, 1, -0, 0.999712229, 0, -0.0239899773)*CFrame.new(0,29, 0) 
- end) 
+
  tgls:Label("Buy")  
  tgls:Toggle("AutoClickGodBox",false, function(e) 
  for _ = 1,2 do 
@@ -202,7 +191,7 @@ end
    end)  
   end  
    end)   
-   drops:Toggle("Choose Weapon To x5 Fast Actack",false, function(v)  
+   drops:Toggle("Choose Weapon To x5 Fast Acttack",false, function(v)  
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Atack x5", "Ok")  
   elseif Weapon ~= nil then  
@@ -222,7 +211,7 @@ end
    end   
   end  
    end)   
-   drops:Toggle("Choose Weapon To x10 Fast Actack",false, function(v)   
+   drops:Toggle("Choose Weapon To x10 Fast Acttack",false, function(v)   
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x10", "Ok")  
   elseif Weapon ~= nil then  
@@ -242,7 +231,7 @@ end
    end   
   end  
    end)   
-   drops:Toggle("Choose Weapon To X20 Actack",false, function(v)   
+   drops:Toggle("Choose Weapon To X20 Acttack",false, function(v)   
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x20", "Ok")  
   elseif Weapon ~= nil then  
@@ -262,7 +251,7 @@ end
    end   
   end  
    end)   
- drops:Toggle("Choose Weapon To X50 Actack",false, function(v)   
+ drops:Toggle("Choose Weapon To X50 Acttack",false, function(v)   
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x50", "Ok")  
   elseif Weapon ~= nil then  
@@ -355,7 +344,7 @@ end
   end)  
   drops:Button("Choose Player To Super Ultra Skill, Need Loadmap", function()  
  if plr == nil then 
- DiscordLib:Notification("Warning", "Choose Player to Super Ultra Skill, Need Loadmap", "Ok") 
+ DiscordLib:Notification("Warning", "Choose Player to Super Ultra Skill", "Ok") 
  elseif plr ~= nil then 
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[plr].Character.HumanoidRootPart.CFrame  
   wait(0.1)  
@@ -368,7 +357,7 @@ end
   end)  
  drops:Toggle("Spectate Player",false, function(h) 
  if plr == nil then 
- DiscordLib:Notification("Warning", "Choose Player to Spectate, Need Loadmap", "Ok") 
+ DiscordLib:Notification("Warning", "Choose Player to Spectate", "Ok") 
  elseif plr ~= nil then 
  getgenv().view = h 
  spawn(function() 
@@ -396,7 +385,7 @@ end
   end)  
  end 
   end)  
-  drops:Toggle("Auto Bring Player, Need LoadMap",false, function(a)  
+  drops:Toggle("Auto Bring Player",false, function(a)  
  if plr == nil then 
  DiscordLib:Notification("Warning", "Choose Player to Bring Player", "Ok") 
  elseif plr ~= nil then 
@@ -413,7 +402,7 @@ for _ = 1,10 do wait()
  end 
 end
   end)  
-  drops:Toggle("Auto Tween Bring Player, Need LoadMap",false, function(p)  
+  drops:Toggle("Auto Tween Bring Player",false, function(p)  
  if plr == nil then 
  DiscordLib:Notification("Warning", "Choose Player to Tween Bring Player", "Ok") 
  elseif plr ~= nil then 
@@ -431,7 +420,7 @@ end
   end)  
  end 
   end)  
-   drops:Toggle("Auto Bring All Player, Need LoadMap",false, function(t)  
+   drops:Toggle("Auto Bring All Player",false, function(t)  
 for _ = 1,10 do wait()
    getgenv().autobring1 = t  
   spawn(function()  
@@ -991,7 +980,7 @@ end)
                  local plr = game:GetService("Players").LocalPlayer 
                  tps:TeleportToPlaceInstance(game.PlaceId, game.JobId, plr) 
  end) 
-  drops:Button("Teleport To First Sea", function()
+  btns:Button("Teleport To First Sea", function()
 local tps = game:GetService("TeleportService")
 DiscordLib:Notification("Warning","Teleport To Second Sea...","...")
 tps:Teleport("4587545091")
