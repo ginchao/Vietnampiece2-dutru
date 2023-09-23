@@ -1264,4 +1264,25 @@ end
 end)
 end
 end)
+local drops = serv:Channel("Player Test")
+local Weaponlist = {}
+local Weapon = nil
+for i, v in pairs(game:GetService("Players"):GetChildren()) do
+table.insert(Weaponlist,"Level".."."..v.Data.Levels.Value.."          "..v.Name.."          ".."HP"..":"..v.Character.Humanoid.Health)
+end
+local drop = drops:Dropdown("Pick me!", Weaponlist, function(cu)
+for i, v in pairs(game.Players:GetPlayers()) do
+if cu == v.Name then
+Weapon = cu
+end
+end
+end)
+drops: Button("Refresh Players", function()
+drop:Clear()
+for i,v in pairs(game.Players: GetChildren()) do
+if v.Data:FindFirstChild("Levels") then
+drop:Add("Level".."."..v.Data.Levels.Value.."          "..v.Name.."          ".."HP"..":"..v.Character.Humanoid.Health)
+end
+end
+end)
 end
