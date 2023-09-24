@@ -113,10 +113,11 @@ end
  tgls:Label("Buy")  
  tgls:Toggle("AutoClickGodBox",false, function(e) 
  for _ = 1,2 do 
-         getgenv().AutoClickGodBox = e; 
-         while AutoClickGodBox == true do wait() 
- if not getgenv().AutoClickGodBox then break; end 
-                 fireclickdetector(game:GetService("Workspace")["Platinum Town [ 2000 - 3000 ]"].PlatinumMAP.GodBox.ClickDetector) 
+         getgenv().AutoC = e
+         while AutoC do wait() 
+ if not getgenv().AutoC then break end 
+                 fireclickdetector(game:GetService("Workspace")["Platinum Town [ 2000 - 3000 ]"].PlatinumMAP.GodBox.ClickDetector)
+if AutoC == false then break; end
          end 
  end 
  end) 
