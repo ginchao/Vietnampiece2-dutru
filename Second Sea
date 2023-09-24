@@ -1285,4 +1285,8 @@ drop:Add("Level".."."..v.Data.Levels.Value.."          "..v.Name.."          "..
 end
 end
 end)
+for i, c in pairs(game.Players:GetChildren()) do 
+local la = drops:Label("Level."..""..c.Data.Levels.Value.." ["..c.Name.."] HP:["..c.Character.Humanoid.Health.."] Beli:"..c.Data.Belis.Value,function()
+end)
+end
 end
