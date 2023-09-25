@@ -1295,5 +1295,5 @@ end)
 end
 end
 else
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree/main/First%20Sea'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))()
 end
