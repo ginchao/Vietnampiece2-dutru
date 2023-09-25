@@ -1268,7 +1268,7 @@ end
 end)
 end
 end)
-local drops = serv:Channel("Player Test")
+local drops = serv:Channel("⭐Player Test")
 local Weaponlist = {}
 local Weapon = nil
 for i, v in pairs(game:GetService("Players"):GetChildren()) do
