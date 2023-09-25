@@ -6,9 +6,9 @@ if game.PlaceId~=7258239416 then
  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))() 
  elseif game.PlaceId==7258239416 then 
  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Discord-Lib'))() 
- local win = DiscordLib:Window("Test Hub") 
+ local win = DiscordLib:Window("[Test Hub X Premium]") 
 DiscordLib:Notification("Premium Stars ⭐","Hello! ".."⭐"..per..".                                              ".."You Have Premium Stars So You Get All The Features Unlocked","Ok")
- local serv = win:Server("VietNamPiece Pvp 2", "") 
+ local serv = win:Server("VNP1 X Premium", "") 
  local drops = serv:Channel("Mob") 
  local quest = nil 
  local drop = drops:Dropdown("Mob lv 2000 > lv 12000", {"Kaido","Paw User","King Vampire","Magma Boss","String Boss","Nick Beo","Tango"}, function(y) 
