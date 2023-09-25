@@ -5,6 +5,7 @@ if game.PlaceId~=7258239416 then
  elseif game.PlaceId==7258239416 then 
  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Discord-Lib'))() 
  local win = DiscordLib:Window("Test Hub") 
+DiscordLib:Notification("Premium Stars ⭐","Hello! ".."⭐"..per..".                                              ".."You Have Premium Stars So You Get All The Features Unlocked","Ok")
  local serv = win:Server("VietNamPiece Pvp 2", "") 
  local drops = serv:Channel("Mob") 
  local quest = nil 
