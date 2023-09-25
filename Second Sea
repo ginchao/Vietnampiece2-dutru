@@ -193,7 +193,7 @@ end)
    end)  
   end  
    end)   
-   drops:Toggle("Choose Weapon To x5 Fast Acttack",false, function(v)  
+   drops:Toggle("⭐Choose Weapon To x5 Fast Acttack",false, function(v)  
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Atack x5", "Ok")  
   elseif Weapon ~= nil then  
@@ -213,7 +213,7 @@ end)
    end   
   end  
    end)   
-   drops:Toggle("Choose Weapon To x10 Fast Acttack",false, function(v)   
+   drops:Toggle("⭐Choose Weapon To x10 Fast Acttack",false, function(v)   
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x10", "Ok")  
   elseif Weapon ~= nil then  
@@ -233,7 +233,7 @@ end)
    end   
   end  
    end)   
-   drops:Toggle("Choose Weapon To X20 Acttack",false, function(v)   
+   drops:Toggle("⭐Choose Weapon To X20 Acttack",false, function(v)   
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x20", "Ok")  
   elseif Weapon ~= nil then  
@@ -253,7 +253,7 @@ end)
    end   
   end  
    end)   
- drops:Toggle("Choose Weapon To X50 Acttack",false, function(v)   
+ drops:Toggle("⭐Choose Weapon To X50 Acttack",false, function(v)   
   if Weapon == nil then  
   DiscordLib:Notification("Warning", "Choose Weapon to Fast Attack x50", "Ok")  
   elseif Weapon ~= nil then  
@@ -287,7 +287,7 @@ end)
  end 
  end) 
  end) 
-   drops:Toggle("Touch Grabtools",false, function(l)   
+   drops:Toggle("⭐Touch Grabtools",false, function(l)   
    getgenv().grabtools = l   
    spawn(function()   
    while grabtools do wait()   
@@ -440,7 +440,7 @@ for _ = 1,10 do wait()
 end 
    end)   
    drops:Label("Need Player In Your Sever")   
-   drops:Toggle("Super Ultra DAMGE Attack",false, function(v)   
+   drops:Toggle("⭐Super Ultra DAMGE Attack",false, function(v)   
    getgenv().autop = v;  
    spawn(function()   
    while autop do wait()  
@@ -462,7 +462,7 @@ end
    end   
    end)   
    end)   
-   drops:Toggle("Auto Armor",false, function(o)   
+   drops:Toggle("⭐Auto Armor",false, function(o)   
    getgenv().autobuffhp = o   
    while autobuffhp do wait()   
    for i, v in pairs(game.Players:GetDescendants()) do   
@@ -480,7 +480,7 @@ end
    end   
    end   
    end)   
-   drops:Button("Super Ultra Inf Legendary Skill Attack", function()    
+   drops:Button("⭐Super Ultra Inf Legendary Skill Attack", function()    
    for i, v in pairs(game:GetDescendants()) do   
    if v:IsA("RemoteEvent") and v.Name ~= "Eat" then   
    v:FireServer()   
@@ -506,7 +506,7 @@ drops:Label("Fast Acttack No Equip No Choose, _Fastattack")
  end 
  end) 
  end) 
- drops:Toggle("Fast Acttack x5",false, function(e) 
+ drops:Toggle("⭐Fast Acttack x5",false, function(e) 
  getgenv().auto1 = e 
  for _ = 1,5 do 
  spawn(function() 
@@ -520,7 +520,7 @@ drops:Label("Fast Acttack No Equip No Choose, _Fastattack")
  end) 
  end 
  end) 
- drops:Toggle("Fast Acttack x15",false, function(e) 
+ drops:Toggle("⭐Fast Acttack x15",false, function(e) 
  getgenv().auto2 = e 
  for _ = 1,15 do 
  spawn(function() 
@@ -534,7 +534,7 @@ drops:Label("Fast Acttack No Equip No Choose, _Fastattack")
  end) 
  end 
  end) 
- drops:Toggle("Fast Acttack x30",false, function(e) 
+ drops:Toggle("⭐Fast Acttack x30",false, function(e) 
  getgenv().auto3 = e 
  for _ = 1,30 do 
  spawn(function() 
@@ -548,7 +548,7 @@ drops:Label("Fast Acttack No Equip No Choose, _Fastattack")
  end) 
  end 
  end) 
- drops:Toggle("Fast Acttack x60",false, function(e) 
+ drops:Toggle("⭐Fast Acttack x60",false, function(e) 
  getgenv().auto4 = e 
  for _ = 1,60 do 
  spawn(function() 
@@ -562,7 +562,7 @@ drops:Label("Fast Acttack No Equip No Choose, _Fastattack")
  end) 
  end 
  end) 
- drops:Toggle("Fast Acttack x100",false, function(e) 
+ drops:Toggle("⭐Fast Acttack x100",false, function(e) 
  getgenv().auto5 = e 
  for _ = 1,100 do wait() 
  spawn(function() 
@@ -594,7 +594,7 @@ drops:Label("Fast Acttack No Equip No Choose, _Fastattack")
   drop:Add(b.Name)  
   end  
   end)  
-  drops:Toggle("Super Ultra DAMGE Attack",false, function(v)    
+  drops:Toggle("⭐Super Ultra DAMGE Attack",false, function(v)    
     getgenv().autop = v;   
     spawn(function()    
     while autop do wait()   
@@ -954,8 +954,8 @@ end)
   btns:Button("Shift Lock", function()         loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/ShiftLockx/main/Shiftlock-MiniNoobie",true))()  
   end) 
 local chat = game.Players.LocalPlayer.Name
-local serv = win:Server("Hello! "..chat, "")
-local drops = serv:Channel("Fast Attack Test")
+local serv = win:Server("Hello! ⭐"..chat, "")
+local drops = serv:Channel("⭐Fast Attack Test")
 drops:Label("Fast Acttack Equiptool Fix New Acc") 
  drops:Toggle("Fast Acttack ",false, function(e) 
  getgenv().auto = e 
@@ -1113,7 +1113,7 @@ drops:Label("Fast Acttack Equiptool Fix New Acc")
  end 
  end) 
 
-drops:Label("Fast Attack v2 No Choose, No fix New Acc")
+drops:Label("⭐Fast Attack v2 No Choose, No fix New Acc")
 drops:Toggle("Fast Acttack ",false, function(e)
 getgenv().fasst = e
 if not getgenv().fasst then game.Players.LocalPlayer.Character.Humanoid:UnequipTools() end
