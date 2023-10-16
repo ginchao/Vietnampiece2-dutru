@@ -4,7 +4,9 @@ if find:FindFirstChild("Quanphan01299") or find:FindFirstChild("ginchao12") or f
 find:FindFirstChild("ZzKenKK1") or 
 find:FindFirstChild("thinhbietha0ck") or
 find:FindFirstChild("Thanhnha161") or per == "NHBD12" or per == "ginchao12" or per == "ZzKenKK1" or per == "haurhj" or per == "roxblox_1238" or per == "mingcc15562" or per == "Quanphan01299" or per == "thinhbietha0ck" or per == "Thanhnha161" then  
-  if game.PlaceId==4587545091 or game.PlaceId~=4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
+  if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
+elseif game.PlaceId~=4587545091 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree/main/First%20Sea'))() 
   elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
 end
  else  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
