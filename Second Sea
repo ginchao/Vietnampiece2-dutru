@@ -30,7 +30,7 @@ HttpService = game:GetService("HttpService")
  ["inline"] = true }, 
  { 
  ["name"] = "🔴Level: ", 
- ["value"] = game.Players.LocalPlayer.Data.Level.Value, 
+ ["value"] = game.Players.LocalPlayer.Data.Levels.Value, 
  ["inline"] = true }, 
  { 
  ["name"] = "Số tuổi của Account:", 
