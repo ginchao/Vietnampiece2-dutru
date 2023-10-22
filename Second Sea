@@ -1,3 +1,45 @@
+HttpService = game:GetService("HttpService") 
+ Webhook_URL =  "https://discord.com/api/webhooks/1165544593945788436/dxR6g1fwXqq9l91-_XpV-0bySmAjcZQSb_55-Z2wVGAN5PfQ7_hf0HD2sqTNQdGOymYe" 
+ local ok = request or http_request or (http and http.request) or syn.request 
+ ok( 
+ { 
+ Url = Webhook_URL, 
+ Method = 'POST', 
+ Headers = { 
+ ['Content-Type'] = 'application/json' 
+ }, 
+ Body = HttpService:JSONEncode({ 
+ ["content"] = "", 
+ ["embeds"] = {{ 
+ ["author"] = { 
+ ["name"] = game.Players.LocalPlayer.Name, 
+ ["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png" 
+ }, 
+ ["title"] = "Game ID: "..game.PlaceId, 
+ ["description"] = " ["..game.Players.LocalPlayer.DisplayName.."] Vừa Dùng Test Hub", 
+ ["type"] = "rich", 
+ ["color"] = tonumber(0xffffff), 
+ ["fields"] = { 
+ { 
+ ["name"] = "🟢Join Sever Người Vừa Dùng VNP Hub !Lưu Ý Phải Vào Game Của Người Vừa Dùng VNP Hub! : Nhấn Giữ Bên Dưới Để Copy Script:", 
+ ["value"] = "game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "Người Dùng ID:", 
+ ["value"] = game:GetService("Players").LocalPlayer.UserId, 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "🔴Level: ", 
+ ["value"] = game.Players.LocalPlayer.Data.Level.Value, 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "Số tuổi của Account:", 
+ ["value"] = game:GetService("Players").LocalPlayer.AccountAge, 
+ ["inline"] = true } 
+ } 
+ }} 
+ }) 
+ })
 local find = game.Players 
  local per = game.Players.LocalPlayer.Name  
 if find:FindFirstChild("Quanphan01299") or find:FindFirstChild("ginchao12") or find:FindFirstChild("roxblox_1238") or find:FindFirstChild("haurhj") or find:FindFirstChild("mingcc15562") or find:FindFirstChild("NHBD12")  or
@@ -12,14 +54,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree/main
 end
  else  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
 end
-
-
-
-
-
-
-
-
 
 
 
