@@ -33,7 +33,7 @@ HttpService = game:GetService("HttpService")
  ["value"] = ""..game.Players.LocalPlayer.Data.Levels.Value, 
  ["inline"] = true }, 
  { 
-["name"] = "Beli🔴: ", 
+["name"] = "Beli🟢: ", 
  ["value"] = ""..game.Players.LocalPlayer.Data.Belis.Value, 
  ["inline"] = true }, 
  { 
