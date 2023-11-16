@@ -66,7 +66,7 @@ return se
 end
 function e(a)
 if find() then
-game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (Có ⭐ Trong Sever) Bạn Hãy Tắt Hub Bật Lại Nếu Muốn Dùng Bản Premium",  Icon = "rbxassetid://6842416695", Duration = 2.5  }) 
+game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (Có ⭐ Trong Sever) Bạn Hãy Tắt Hub Bật Lại Nếu Muốn Dùng Bản Premium",  Icon = "rbxassetid://6842416695", Duration = 7  }) 
 end
 end
 e()
