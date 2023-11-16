@@ -55,7 +55,25 @@ find:FindFirstChild("ngoibui22") then
   if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
   elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
 end
- else  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
+ else 
+function find(se)
+for i, v in pairs(game.Players:GetChildren()) do
+if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "haurhj" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "kogggr139" or v.Name == "ngoibui22" then
+se = v.Name
+end
+end
+return se
+end
+function e(a)
+if find() then
+game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." ("Có ⭐ Trong Sever") Bạn Hãy Tắt Hub Bật Lại Nếu Muốn Dùng Bản Premium",  Icon = "rbxassetid://6842416695", Duration = 2.5  }) 
+end
+end
+e()
+game.Players.PlayerAdded:Connect(function()
+e()
+end)
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
 end
 
 
