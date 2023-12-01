@@ -50,7 +50,7 @@ if find:FindFirstChild("Quanphan01299") or find:FindFirstChild("ginchao12") or f
 find:FindFirstChild("ZzKenKK1") or 
 find:FindFirstChild("thinhbietha0ck") or
 find:FindFirstChild("Thanhnha161") or
-find:FindFirstChild("kogggr139") or
+find:FindFirstChild("nanhshshhhshsgs") or
 find:FindFirstChild("ngoibui22") then
   if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
   elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
@@ -58,7 +58,7 @@ end
  else 
 function find(se)
 for i, v in pairs(game.Players:GetChildren()) do
-if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "haurhj" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "kogggr139" or v.Name == "ngoibui22" then
+if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "haurhj" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "nanhshshhhshsgs" or v.Name == "ngoibui22" then
 se = v.Name
 end
 end
