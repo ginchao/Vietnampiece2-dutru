@@ -59,7 +59,7 @@ end
  else 
 function e(a)
 if find() then
-game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (There is ⭐ in the Server) Please turn the Hub off and on again if you want to use the Premium version",  Icon = "rbxassetid://6842416695", Duration = 11  }) 
+game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (There is ⭐ in the Server) Excute Hub Again If You Want To Use The Premium Version ",  Icon = "rbxassetid://6842416695", Duration = 11  }) 
 end
 end
 e()
