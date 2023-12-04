@@ -44,18 +44,6 @@ HttpService = game:GetService("HttpService")
  }} 
  }) 
  })
-local find = game.Players 
- local per = game.Players.LocalPlayer.Name  
-if find:FindFirstChild("Quanphan01299") or find:FindFirstChild("ginchao12") or find:FindFirstChild("roxblox_1238") or find:FindFirstChild("haurhj") or find:FindFirstChild("mingcc15562") or find:FindFirstChild("NHBD12")  or
-find:FindFirstChild("ZzKenKK1") or 
-find:FindFirstChild("thinhbietha0ck") or
-find:FindFirstChild("Thanhnha161") or
-find:FindFirstChild("nanhshshhhshsgs") or
-find:FindFirstChild("ngoibui22") then
-  if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
-  elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
-end
- else 
 function find(se)
 for i, v in pairs(game.Players:GetChildren()) do
 if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "haurhj" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "nanhshshhhshsgs" or v.Name == "ngoibui22" then
@@ -64,6 +52,11 @@ end
 end
 return se
 end
+if find() then
+  if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
+  elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
+end
+ else 
 function e(a)
 if find() then
 game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (There is ⭐ in the Server) Please turn the Hub off and on again if you want to use the Premium version",  Icon = "rbxassetid://6842416695", Duration = 11  }) 
@@ -72,8 +65,7 @@ end
 e()
 game.Players.PlayerAdded:Connect(function()
 e()
-end)
- loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
+end) loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
 end
 
 
