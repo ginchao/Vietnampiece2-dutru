@@ -46,7 +46,7 @@ HttpService = game:GetService("HttpService")
  })
 function find(se)
 for i, v in pairs(game.Players:GetChildren()) do
-if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "haurhj" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "nanhshshhhshsgs" or v.Name == "ngoibui22" then
+if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "haurhj" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "nanhshshhhshsgs" or v.Name == "ngoibui22" or v.Name == "Thanhnha161" then
 se = v.Name
 end
 end
