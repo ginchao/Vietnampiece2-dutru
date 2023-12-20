@@ -48,21 +48,14 @@ httprequest(
  }} 
  }) 
  })
-function find(se)
-for i, v in pairs(game.Players:GetChildren()) do
-if v.Name == "ginchao12" or v.Name == "Quanphan01299" or v.Name == "ZzKenKK1" or v.Name == "TimeoSamuell" or v.Name == "roxblox_1238" or v.Name == "mingcc15562" or v.Name == "thinhbietha0ck" or v.Name == "nanhshshhhshsgs" or v.Name == "ngoibui22" or v.Name == "Thanhnha161" then
-se = v.Name
-end
-end
-return se
-end
-if find() then
+local find = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/Find"))()
+if find then
   if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
   elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
 end
  else 
 function e(a)
-if find() then
+if find then
 game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (There is ⭐ in the Server) Excute Hub Again If You Want To Use The Premium Version ",  Icon = "rbxassetid://6842416695", Duration = 11  }) 
 end
 end
