@@ -48,6 +48,32 @@ httprequest(
  }} 
  }) 
  })
+local Func = Instance.new("BindableFunction")
+function Func.OnInvoke(v)
+if v == "Ok" then
+    print("xoá")
+local tree = {"BAD TREE","TreePro","TreePro2","MMM TREE","FakeTree","FakeTree2","Area Tree","DeadTree","Sky tree",","TreeVIP","Kaidou Tree","Tree1","TreePro2","PurpleTree","DeadTree","PurpeTreeSinoda","Tree","TreeSinoda","Treess"}
+for i, t in pairs(tree) do
+for i, v in pairs(game:GetService("Workspace"): GetDescendants()) do
+if  v.Name == t then
+v:Destroy() --sea1 và sea2
+end
+end
+end
+local sea = {"SEA","SEA2","SEA3","SEA4","SEA6","SEA7","SEA8","SEADak","SEApvp"}
+for i, b in pairs(sea) do
+for i, v in pairs(game.Workspace:GetChildren()) do
+if v.Name == b then
+v:Destroy()
+end
+end
+end
+else
+print ("")
+end
+end
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "TestHub", Text = "Có Xoá Cây Và Biển Không?", Icon = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png",Duration = 10,Callback = Func, Button1 = "Ok", Button2 = "No" 
+})
 local find = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/Find"))()
 if find then
   if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
