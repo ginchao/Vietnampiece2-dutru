@@ -52,7 +52,7 @@ local Func = Instance.new("BindableFunction")
 function Func.OnInvoke(v)
 if v == "Ok" then
     print("xoá")
-local tree = {"BAD TREE","TreePro","TreePro2","MMM TREE","FakeTree","FakeTree2","Area Tree","DeadTree","Sky tree",","TreeVIP","Kaidou Tree","Tree1","TreePro2","PurpleTree","DeadTree","PurpeTreeSinoda","Tree","TreeSinoda","Treess"}
+local tree = {"BAD TREE","TreePro","TreePro2","MMM TREE","FakeTree","FakeTree2","Area Tree","DeadTree","Sky tree","TreeVIP","Kaidou Tree","Tree1","TreePro2","PurpleTree","DeadTree","PurpeTreeSinoda","Tree","TreeSinoda","Treess"}
 for i, t in pairs(tree) do
 for i, v in pairs(game:GetService("Workspace"): GetDescendants()) do
 if  v.Name == t then
