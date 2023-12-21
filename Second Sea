@@ -79,16 +79,7 @@ if find then
   if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
   elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
 end
- else 
-function e(a)
-if find then
-game.StarterGui:SetCore("SendNotification", { Title = "Test Hub", Text = "".." (There is ⭐ in the Server) Excute Hub Again If You Want To Use The Premium Version ",  Icon = "rbxassetid://6842416695", Duration = 11  }) 
-end
-end
-e()
-game.Players.PlayerAdded:Connect(function()
-e()
-end) loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
+ else  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
 end
 
 
