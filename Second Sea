@@ -51,7 +51,7 @@ httprequest(
 local Func = Instance.new("BindableFunction")
 function Func.OnInvoke(v)
 if v == "Ok" then
-    print("xoá")
+   
 local tree = {"BAD TREE","TreePro","TreePro2","MMM TREE","FakeTree","FakeTree2","Area Tree","DeadTree","Sky tree","TreeVIP","Kaidou Tree","Tree1","TreePro2","PurpleTree","DeadTree","PurpeTreeSinoda","Tree","TreeSinoda","Treess"}
 for i, t in pairs(tree) do
 for i, v in pairs(game:GetService("Workspace"): GetDescendants()) do
@@ -72,7 +72,7 @@ else
 print ("")
 end
 end
-game:GetService("StarterGui"):SetCore("SendNotification",{Title = "TestHub", Text = "Có Xoá 🌲 Và Biển🌊 Không?", Icon = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png",Duration = 10,Callback = Func, Button1 = "Ok", Button2 = "No" 
+game:GetService("StarterGui"):SetCore("SendNotification",{Title = "TestHub", Text = "Có Xoá 🌲 Và Biển 🌊 Không?", Icon = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png",Duration = 10,Callback = Func, Button1 = "Ok", Button2 = "No" 
 })
 local find = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/Find"))()
 if find then
