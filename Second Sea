@@ -48,6 +48,7 @@ httprequest(
  }} 
  }) 
  })
+
 game.Players.LocalPlayer.Kick("Wait For Fix")
 local Func = Instance.new("BindableFunction")
 function Func.OnInvoke(v)
