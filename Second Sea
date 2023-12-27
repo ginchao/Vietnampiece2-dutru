@@ -51,7 +51,7 @@ httprequest(
  })
 local test1 = game:GetService("Workspace"):FindFirstChild("treebien")
 if test1 then
-test:Destroy()
+test1:Destroy()
 else
 local Func = Instance.new("BindableFunction")
 function Func.OnInvoke(v)
