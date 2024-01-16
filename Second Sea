@@ -49,7 +49,7 @@ httprequest(
  }} 
  }) 
  })
-game.Players.LocalPlayer:Kick("Lock Hub")
+
 local test1 = game:GetService("Workspace"):FindFirstChild("treebien")
 if test1 then
 test1:Destroy()
