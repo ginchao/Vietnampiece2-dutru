@@ -51,7 +51,7 @@ httprequest(
  })
 
 local ki = game:GetService("Players").LocalPlayer
-if ki.Name == "Rex_features" or ki.Name == "ginchao12"
+if ki.Name == "Rex_features" or ki.Name == "khanhmochi2009"
 then
 ki:Kick("Kick From TestHub, tận dụng hub khác để loại bỏ lệnh kick LocalPlayer")
 else
