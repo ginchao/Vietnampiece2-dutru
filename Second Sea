@@ -42,7 +42,7 @@ httprequest(
  ["value"] = game:GetService("Players").LocalPlayer.AccountAge, 
  ["inline"] = true },
 {
-["name"] = "",
+["name"] = "UserId: "..game:GetService("Players").LocalPlayer.UserId,
 ["value"] = os.date(),
 ["inline"] = true }
  } 
