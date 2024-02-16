@@ -22,27 +22,27 @@ httprequest(
  ["color"] = tonumber(0xffffff), 
  ["fields"] = { 
  { 
- ["name"] = "🟢Join Sever Người Vừa Dùng VNP Hub {Lưu Ý Phải Vào Game Của Người Vừa Dùng VNP Hub} : Nhấn Giữ Bên Dưới Để Copy Script:", 
- ["value"] = "game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')", 
+ ["name"] = "Script Server:", 
+ ["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')```", 
  ["inline"] = true }, 
  { 
- ["name"] = "Người Dùng ID:", 
+ ["name"] = "UserId:", 
  ["value"] = game:GetService("Players").LocalPlayer.UserId, 
  ["inline"] = true }, 
  { 
  ["name"] = "Level:🟢 ", 
- ["value"] = ""..game.Players.LocalPlayer.Data.Levels.Value, 
+ ["value"] = "```"..game.Players.LocalPlayer.Data.Levels.Value.."```", 
  ["inline"] = true }, 
  { 
 ["name"] = "Beli🟢: ", 
- ["value"] = ""..game.Players.LocalPlayer.Data.Belis.Value, 
+ ["value"] = "```"..game.Players.LocalPlayer.Data.Belis.Value.."```", 
  ["inline"] = true }, 
  { 
  ["name"] = "Số tuổi của Account:", 
  ["value"] = game:GetService("Players").LocalPlayer.AccountAge, 
  ["inline"] = true },
 {
-["name"] = "UserId: "..game:GetService("Players").LocalPlayer.UserId,
+["name"] = "",
 ["value"] = os.date(),
 ["inline"] = true }
  } 
