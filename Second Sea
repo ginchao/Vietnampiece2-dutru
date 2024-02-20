@@ -23,7 +23,7 @@ httprequest(
  ["fields"] = { 
  { 
  ["name"] = "Script Server:", 
- ["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."')```", 
+ ["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."',game.Players.LocalPlayer)```", 
  ["inline"] = true }, 
  { 
  ["name"] = "UserId:", 
