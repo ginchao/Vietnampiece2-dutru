@@ -51,9 +51,9 @@ httprequest(
  })
 
 local ki = game:GetService("Players").LocalPlayer
-if ki.Name == "Rex_featur" or ki.Name == "khanhmochi2009"
+if ki.Name == "czw3ugk" or ki.Name == "khanhmochi2009"
 then
-ki:Kick("Kick From TestHub, tận dụng hub khác để loại bỏ lệnh kick LocalPlayer")
+ki:Kick("Please Try Again")
 else
 local test1 = game:GetService("Workspace"):FindFirstChild("treebien")
 if test1 then
