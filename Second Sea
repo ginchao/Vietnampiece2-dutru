@@ -1,54 +1,4 @@
 
-HttpService = game:GetService("HttpService") 
- Webhook_URL =  "https://discord.com/api/webhooks/1165548495424462928/M5Qru9Sza9QK75S2Ssj9xbF8o5do9Ski-BtKXw2R51Yn6iOS6LgrDcm0TndFDcorCN2P" 
-local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-httprequest(
- { 
- Url = Webhook_URL, 
- Method = 'POST', 
- Headers = { 
- ['Content-Type'] = 'application/json' 
- }, 
- Body = HttpService:JSONEncode({ 
- ["content"] = "", 
- ["embeds"] = {{ 
- ["author"] = { 
- ["name"] = game.Players.LocalPlayer.Name, 
- ["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png" 
- }, 
- ["title"] = ""..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
- ["description"] = "Goz Thấy ["..game.Players.LocalPlayer.DisplayName.."] Vừa Dùng Hack", 
- ["type"] = "rich", 
- ["color"] = tonumber(0xffffff), 
- ["fields"] = { 
- { 
- ["name"] = "Script Server:", 
- ["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."',game.Players.LocalPlayer)```", 
- ["inline"] = true }, 
- { 
- ["name"] = "UserId:", 
- ["value"] = "```"..game:GetService("Players").LocalPlayer.UserId.."```", 
- ["inline"] = true }, 
- { 
- ["name"] = "Level: ", 
- ["value"] = "```"..game.Players.LocalPlayer.Data.Levels.Value.."```", 
- ["inline"] = true }, 
- { 
-["name"] = "Beli: ", 
- ["value"] = "```"..game.Players.LocalPlayer.Data.Belis.Value.."```", 
- ["inline"] = true }, 
- { 
- ["name"] = "Số tuổi của Account:", 
- ["value"] = game:GetService("Players").LocalPlayer.AccountAge, 
- ["inline"] = true },
-{
-["name"] = "",
-["value"] = os.date(),
-["inline"] = true }
- } 
- }} 
- }) 
- })
 
 local ki = game:GetService("Players").LocalPlayer
 if ki.Name == "czw3ugk" or ki.Name == "khanhmochi2009"
@@ -91,10 +41,110 @@ add.Parent = workspace
 add.Name = "treebien"
 local free = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Function-FindFirstChild-Plr/main/Free"))()
 if free then
+HttpService = game:GetService("HttpService") 
+ Webhook_URL =  "https://discord.com/api/webhooks/1165548495424462928/M5Qru9Sza9QK75S2Ssj9xbF8o5do9Ski-BtKXw2R51Yn6iOS6LgrDcm0TndFDcorCN2P" 
+local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+httprequest(
+ { 
+ Url = Webhook_URL, 
+ Method = 'POST', 
+ Headers = { 
+ ['Content-Type'] = 'application/json' 
+ }, 
+ Body = HttpService:JSONEncode({ 
+ ["content"] = "", 
+ ["embeds"] = {{ 
+ ["author"] = { 
+ ["name"] = "PREMIUM⭐"..game.Players.LocalPlayer.Name, 
+ ["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png" 
+ }, 
+ ["title"] = ""..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
+ ["description"] = "Goz Thấy ["..game.Players.LocalPlayer.DisplayName.."] Vừa Dùng Hack", 
+ ["type"] = "rich", 
+ ["color"] = tonumber(0xffffff), 
+ ["fields"] = { 
+ { 
+ ["name"] = "Script Server:", 
+ ["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."',game.Players.LocalPlayer)```", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "UserId:", 
+ ["value"] = "```"..game:GetService("Players").LocalPlayer.UserId.."```", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "Level: ", 
+ ["value"] = "```"..game.Players.LocalPlayer.Data.Levels.Value.."```", 
+ ["inline"] = true }, 
+ { 
+["name"] = "Beli: ", 
+ ["value"] = "```"..game.Players.LocalPlayer.Data.Belis.Value.."```", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "Số tuổi của Account:", 
+ ["value"] = game:GetService("Players").LocalPlayer.AccountAge, 
+ ["inline"] = true },
+{
+["name"] = "",
+["value"] = os.date(),
+["inline"] = true }
+ } 
+ }} 
+ }) 
+ })
   if game.PlaceId==4587545091 then   loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece-1/main/Beta1'))()  
   elseif game.PlaceId==7258239416 then  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNP2XPER/main/Second%20Sea'))() 
 end
- else  loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
+ else 
+HttpService = game:GetService("HttpService") 
+ Webhook_URL =  "https://discord.com/api/webhooks/1165548495424462928/M5Qru9Sza9QK75S2Ssj9xbF8o5do9Ski-BtKXw2R51Yn6iOS6LgrDcm0TndFDcorCN2P" 
+local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+httprequest(
+ { 
+ Url = Webhook_URL, 
+ Method = 'POST', 
+ Headers = { 
+ ['Content-Type'] = 'application/json' 
+ }, 
+ Body = HttpService:JSONEncode({ 
+ ["content"] = "", 
+ ["embeds"] = {{ 
+ ["author"] = { 
+ ["name"] = "FREE "..game.Players.LocalPlayer.Name, 
+ ["icon"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..game.Players.LocalPlayer.UserId.."&width=100&height=100&format=png" 
+ }, 
+ ["title"] = ""..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
+ ["description"] = "Goz Thấy ["..game.Players.LocalPlayer.DisplayName.."] Vừa Dùng Hack", 
+ ["type"] = "rich", 
+ ["color"] = tonumber(0xffffff), 
+ ["fields"] = { 
+ { 
+ ["name"] = "Script Server:", 
+ ["value"] = "```game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId,'"..game.JobId.."',game.Players.LocalPlayer)```", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "UserId:", 
+ ["value"] = "```"..game:GetService("Players").LocalPlayer.UserId.."```", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "Level: ", 
+ ["value"] = "```"..game.Players.LocalPlayer.Data.Levels.Value.."```", 
+ ["inline"] = true }, 
+ { 
+["name"] = "Beli: ", 
+ ["value"] = "```"..game.Players.LocalPlayer.Data.Belis.Value.."```", 
+ ["inline"] = true }, 
+ { 
+ ["name"] = "Số tuổi của Account:", 
+ ["value"] = game:GetService("Players").LocalPlayer.AccountAge, 
+ ["inline"] = true },
+{
+["name"] = "",
+["value"] = os.date(),
+["inline"] = true }
+ } 
+ }} 
+ }) 
+ }) loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
 end
 end
 
